@@ -32,7 +32,6 @@ module Phase5
       return if www_encoded_form.nil?
 
       params_arr = URI::decode_www_form(www_encoded_form, enc=Encoding::UTF_8)
-
       params_arr.each do |item|
 
         keys = parse_key(item[0])
@@ -42,7 +41,6 @@ module Phase5
         holder = key[keys[0]]
 
         i = 1
-
         while i < keys.size
           holder[keys[i]] = {}
           break if i == keys.size - 1

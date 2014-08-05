@@ -18,7 +18,6 @@ module Phase4
     end
 
     def [](key)
-      #p @rails_lite_cookie
       @cookie_value[key]
     end
 
