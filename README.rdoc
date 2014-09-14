@@ -1,0 +1,8 @@
+Implements the following Ruby on Rails functionality:
+  - Receive http requests
+	- Parse params and use them in taking appropriate action server side
+	- Redirect the request to the appropriate controller
+	- Create and render the appropriate templates for a controller
+	- Redirect a user to the appropriate url
+	- Use cookies to keep track of sessions
+	- Send correct http responses
